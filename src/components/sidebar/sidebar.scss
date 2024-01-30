@@ -10,6 +10,7 @@
     top: 0;
     left: 0;
     bottom: 0;
+    // height: 1000px;
     width: 400px;
     background: white;
     .links {
@@ -31,7 +32,8 @@
     height: 50px;
     position: fixed;
     left: 25px;
-    // background-color: transparent;
+    top: 25px;
+    background-color: transparent;
     border: none;
     border-radius: 50%;
     cursor: pointer;

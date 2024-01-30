@@ -4,17 +4,17 @@ import Test from "./Test";
 const App = () => {
   return (
     <div>
-      <section>
+      <section id="HomePage">
         <Navbar />
         <a href="">Hero</a>
       </section>
-      <section>parallax</section>
+      <section id="Services">parallax</section>
       <section>services</section>
-      <section>parallax</section>
+      <section id="Portfolio">parallax</section>
       <section>portfolio1</section>
       <section>portfolio2</section>
       <section>portfolio3</section>
-      <section>contact</section>
+      <section id="Contact">contact</section>
       {/* <Test />
       <Test /> */}
     </div>
