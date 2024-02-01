@@ -25,11 +25,7 @@ const variants = {
 export default function SideBar() {
   const [open, setOpen] = useState(false);
   return (
-    <motion.div
-      className="sidebar"
-      // variants={variants}
-      animate={open ? "open" : "closed"}
-    >
+    <motion.div className="sidebar" animate={open ? "open" : "closed"}>
       <motion.div className="bg" variants={variants}>
         <Links />
         <ToggleButton setOpen={setOpen} />

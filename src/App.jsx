@@ -1,11 +1,11 @@
 import "./app.scss";
 import Navbar from "./components/navbar/Navbar";
-import Test from "./Test";
+import Test from "./test/Test";
 const App = () => {
   return (
     <div>
       <section id="HomePage">
-        <Navbar />
+        {/* <Navbar /> */}
         <a href="">Hero</a>
       </section>
       <section id="Services">parallax</section>
@@ -15,8 +15,8 @@ const App = () => {
       <section>portfolio2</section>
       <section>portfolio3</section>
       <section id="Contact">contact</section>
-      {/* <Test />
-      <Test /> */}
+      <Test />
+      {/* <Test /> */}
     </div>
   );
 };
