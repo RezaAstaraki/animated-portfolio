@@ -4,7 +4,7 @@ const variants = {
     transition: { staggerChildren: 0.1 },
   },
   closed: {
-    transition: { staggerChildren: 0.05, stagger },
+    transition: { staggerChildren: 0.05 },
   },
 };
 export default function Links() {
