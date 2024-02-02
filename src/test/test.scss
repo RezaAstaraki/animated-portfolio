@@ -39,6 +39,7 @@
     width: 100%;
     background-image: url("./mountains.png");
     z-index: 3;
+    background-size: cover;
   }
 
   .planets {
@@ -47,8 +48,10 @@
     height: 100%;
     width: 100%;
     z-index: 2;
+    background-size: cover;
   }
   .stars {
+    background-size: covers;
     position: absolute;
     background-position: bottom;
     height: 100%;
