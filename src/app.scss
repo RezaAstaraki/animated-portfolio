@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +6,7 @@
 }
 html,
 body {
-  scroll-snap-type: y mandatory;
+  // scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
 }
 section {
