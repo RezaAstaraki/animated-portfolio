@@ -20,3 +20,40 @@
 //     justify-content: center;
 //   }
 // }
+
+.testParallax {
+  overflow: hidden;
+  background: linear-gradient(180deg, rgb(42, 42, 71), rgb(1, 15, 22));
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  h1 {
+    font-size: 88px;
+  }
+  .mountains {
+    position: absolute;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    background-image: url("./mountains.png");
+    z-index: 3;
+  }
+
+  .planets {
+    position: absolute;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+  }
+  .stars {
+    position: absolute;
+    background-position: bottom;
+    height: 100%;
+    width: 100%;
+    background-image: url("./stars.png");
+    z-index: 1;
+  }
+}

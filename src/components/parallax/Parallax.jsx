@@ -6,7 +6,7 @@ export default function Parallax({ type }) {
   const ref = useRef(null);
   const scrollYProgress = useScroll({
     target: ref,
-    offset: ["end end", "end start"],
+    offset: ["start start", "end start"],
   });
   const yText = useTransform(
     scrollYProgress.scrollYProgress,
