@@ -5,6 +5,7 @@ import Parallax from "./components/parallax/Parallax";
 import Services from "./components/services/Services";
 import TestParallax from "./test/TestParallax";
 import Test from "./test/Test";
+import Portfolio from "./components/portfolio/Portfolio";
 const App = () => {
   return (
     <div>
@@ -23,9 +24,7 @@ const App = () => {
         <Parallax type="portfolio" />
         {/* <TestParallax type={"portfolio"} /> */}
       </section>
-      <section>portfolio1</section>
-      <section>portfolio2</section>
-      <section>portfolio3</section>
+      <Portfolio />
       <section id="Contact">contact</section>
       {/* <Test /> */}
       {/* <Test /> */}
